@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>	
+<body>
+	<script>
+		var guess;
+		var rand=Math.floor((Math.random()*10)+1);
+		guess = window.prompt('Guess from 1 to 10');
+		while(guess!= rand){
+			guess = window.prompt('Answer wrong, try again');
+		}
+		alert('Correct');
+	</script>
+	<p>Press F5 to play agian</p>
+</body>
+</html>		
